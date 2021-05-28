@@ -1,0 +1,72 @@
+/* 
+COLOR PALLETE
+https://coolors.co/011627-8d98a7-386150-750d37-ab4e68
+#F5F1ED - Off-White
+#8D98A7 - Cadet Gray
+#750D37 - Deep Pink
+#386150 - Hunter Green
+#021627 - Deep Blue
+*/
+
+/* --Global Styes-- */
+
+body{
+    color: #021627;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #F5F1ED;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/* --Profile-- */
+header {
+    background: #386150;
+    color: #F5F1ED;
+}
+
+
+/* --Projects-- */
+.projects {
+    background: #F5F1ED;
+}
+
+.projects a {
+    color: #750D37;
+}
+
+.projects .btn {
+    color: #F5F1ED;
+    background: #750D37;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background: rgba(117, 13, 55, 80%);
+}
+
+
+/* --Work Experience-- */
+.work-experience {
+    background: #8D98A7;
+    color: #F5F1ED;
+}
+
+
+/* --Education-- */
+
+
+
+/* --Contact Info-- */
+footer {
+    background: #750D37;
+    color: #F5F1ED;
+}
