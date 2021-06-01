@@ -9,9 +9,22 @@ https://coolors.co/011627-8d98a7-386150-750d37-ab4e68
 */
 
 /* --Global Styes-- */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 body{
     color: #021627;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 img {
@@ -24,6 +37,27 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    line-height: 1;
+    text-shadow: -5px 0 #750D37, 0 1px #8D98A7, 1px 0 #8D98A7, 0 -1px #8D98A7;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1, h2 {
+    font-family: 'Give You Glory', cursive;
+    margin: 0;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 /* --Profile-- */
 header {
@@ -47,10 +81,26 @@ header {
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 
 .projects .btn:hover {
     background: rgba(117, 13, 55, 80%);
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 2px dashed #386150;
+    padding: 20px 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
 }
 
 
